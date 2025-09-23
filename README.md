@@ -2,25 +2,27 @@
 
 
 
+
+
 ## Project Overview
 
-Welcome to my **Spring PetClinic project**, This project demonstrates an end-to-end Java CI/CD pipeline for the popular Spring PetClinic
+Welcome to my **Spring PetClinic project**, This project demonstrates an end-to-end Java CI/CD pipeline for the popular Spring PetClinic application. It integrates SonarQube for code quality, GitHub Actions for automation, and AWS EC2 for deployment, showcasing real-world DevOps practices.
 
-application. It integrates SonarQube for code quality, GitHub Actions for automation, and AWS EC2 for deployment, showcasing real-world DevOps 
- 
-practices.
+
 
 
 
 ## Key Features
 
-1. **CI/CD Pipeline:** Fully automated build, test, SonarQube scan, artifact packaging, and deployment
+1.  **CI/CD Pipeline:**    Fully automated build, test, SonarQube scan, artifact packaging, and deployment
 
-2. **Code Quality:** Detects bugs, code smells, and security issues with SonarQube
+2.  **Code Quality:**    Detects bugs, code smells, and security issues with SonarQube
 
-3. **Deployment:** Runs the Spring Boot app as a service on EC2.
+3.  **Deployment:**    Runs the Spring Boot app as a service on EC2.
 
-4. **Modern Tech Stack:** Java 17, Spring Boot, Maven, GitHub Actions, AWS EC2
+4.  **Modern Tech Stack:**    Java 17, Spring Boot, Maven, GitHub Actions, AWS EC2
+
+
 
 
 
@@ -35,6 +37,8 @@ practices.
 - **Artifact Upload** → Package JAR and upload to GitHub artifacts
 
 - **Deploy to EC2**→ Automatically transfer and run the JAR on the server
+
+
 
 
 
@@ -54,6 +58,8 @@ practices.
 
 
 
+
+
 ## 📊 Pipeline Success Metrics
 
 ### ✅ SonarQube Analysis Results
@@ -70,15 +76,17 @@ practices.
 
 
 
+
+
 ## How to Run
 
-1. Clone the repository:
+1.  Clone the repository:
 
        ## git clone https://github.com/donaemeka/sonarqube-java-ci-cd.git
 
        ## cd sonarqube-java-ci-cd/spring-petclinic
 
-2. Set up your environment variables in GitHub secrets:
+2.  Set up your environment variables in GitHub secrets:
 
     - **SONAR_TOKEN** → SonarQube token
 
@@ -88,9 +96,11 @@ practices.
 
     - **EC2_HOST** → Public IP of your EC2 instance
 
-3. Push changes to the main branch – GitHub Actions will automatically run the CI/CD pipeline
+3.  Push changes to the main branch – GitHub Actions will automatically run the CI/CD pipeline
 
 4. Access deployed app on your EC2 instance at port 8080
+
+
 
 
 
@@ -110,15 +120,15 @@ practices.
 
 
 
+
+
 ## Why This Project Is Valuable:
 
-This project showcases a complete DevOps lifecycle:  from **development** → **testing**→ **quality assurance** → **deployment.** It is an 
+This project showcases a complete DevOps lifecycle:  from **development** → **testing**→ **quality assurance** → **deployment.** It is an excellent example of how automation, quality, and cloud deployment come together, making it highly relevant for DevOps Engineer, Site Reliability Engineer, or Cloud Engineer roles.
 
-excellent example of how automation, quality, and cloud deployment come together, making it highly relevant for DevOps Engineer, Site Reliability 
+This implementation demonstrates my capability to design production-ready DevOps pipelines with automated quality gates and cloud deployments.
 
-Engineer, or Cloud Engineer roles.
 
-## This implementation demonstrates my capability to design production-ready DevOps pipelines with automated quality gates and cloud deployments.
 
 
 
@@ -129,7 +139,7 @@ Engineer, or Cloud Engineer roles.
 
 *DevOps Engineer | AWS Certified | CI/CD Specialist*
 
-*Open to new opportunities in DevOps and Cloud Engineering roles*
+## Open to new opportunities in DevOps and Cloud Engineering roles*
 
 
 ### 🔧 Technical Expertise
