@@ -22,7 +22,6 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          # REMOVE THIS LINE: cache: 'maven'
 
       - name: Cache Maven dependencies
         uses: actions/cache@v3
@@ -52,10 +51,10 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
           ./mvnw -B verify sonar:sonar \
-            -Dsonar.projectKey=Donatus-sonarqube \   
+            -Dsonar.projectKey=Donatus-sonarqube \
             -Dsonar.projectName="petclinic" \
             -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }}
 
       - name: Build JAR file
         working-directory: ./spring-petclinic
@@ -92,7 +91,6 @@ jobs:
       - name: Deploy to EC2
         run: |
           scp -o StrictHostKeyChecking=no artifacts/*.jar ubuntu@${{ secrets.EC2_HOST }}:/home/ubuntu/
-
           ssh -o StrictHostKeyChecking=no ubuntu@${{ secrets.EC2_HOST }} << 'EOF'
             if ! command -v java &> /dev/null; then
               sudo apt update && sudo apt install -y openjdk-17-jre
