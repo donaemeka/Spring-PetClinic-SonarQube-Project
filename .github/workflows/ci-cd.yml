@@ -52,7 +52,7 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
           ./mvnw -B verify sonar:sonar \
-            -Dsonar.projectKey=Donatus-sonarqube \   # <-- use your real project key here
+            -Dsonar.projectKey=Donatus-sonarqube \   
             -Dsonar.projectName="petclinic" \
             -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
