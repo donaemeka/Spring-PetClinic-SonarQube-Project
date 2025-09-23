@@ -1,4 +1,4 @@
-## SonarQube Java CI/CD Pipeline with Spring PetClinic
+## SonarQube Java CI/CD Pipeline with Spring PetClinic - DevOps
 
 
 
