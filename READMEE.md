@@ -74,9 +74,9 @@ practices.
 
 1. Clone the repository:
 
-       ## git clone https://github.com/donaemeka/sonarqube-java-ci-cd.git
+       ## git clone https://github.com/donaemeka/Spring-PetClinic-SonarQube-Project.git
 
-       ## cd sonarqube-java-ci-cd/spring-petclinic
+       ## cd Spring-PetClinic-SonarQube-Project/spring-petclinic
 
 2. Set up your environment variables in GitHub secrets:
 
@@ -150,6 +150,7 @@ Engineer, or Cloud Engineer roles.
 - **LinkedIn**: linkedin.com/in/donatus-devops
 
 - **Email**: donaemeka92@gmail.com
+
 
 
 
